@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298974900551",
+    "project_id": "simulator-dio-santander",
+    "storage_bucket": "simulator-dio-santander.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298974900551:android:188bcb9fd506bb32741c62",
+        "android_client_info": {
+          "package_name": "com.cassio.simulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298974900551-qsahbai5ja9t405rkbrggv2mmg8vtph0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8SeQfcvse4f2uo5ulsxSZZoGztXbAZvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298974900551-qsahbai5ja9t405rkbrggv2mmg8vtph0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

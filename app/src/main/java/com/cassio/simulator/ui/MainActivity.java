@@ -3,14 +3,11 @@ package com.cassio.simulator.ui;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
-import android.util.Log;
-
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.cassio.simulator.R;
 import com.cassio.simulator.data.MatchesApi;
@@ -50,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupHttpClient() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://digitalinnovationone.github.io/matches-simulator-api/")
+                .baseUrl("https://cassiobetti.github.io/matches-simulator-api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
